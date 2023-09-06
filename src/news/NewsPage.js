@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { GeneralContext } from "../App";
+import { Link } from "react-router-dom";
 import Talkbacks from "../talkbacks/Talkbacks";
 import "./News.css";
 
@@ -27,7 +28,9 @@ export default function NewsPage() {
     <div className="NewsPage">
       {article ? (
         <div className="article">
-          <button className="back">back</button>
+          <Link to="/News">
+            <button className="back">back</button>
+          </Link>
           <h3>{article.headline}</h3>
           <p>{article.description}</p>
           <img src={article.imgUrl} width="100%" alt={article.headline} />

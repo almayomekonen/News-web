@@ -5,7 +5,7 @@ import NewsPage from "./news/NewsPage";
 const Router = () => {
   return (
     <Routes>
-      <Route path="/" element={<News />} />
+      <Route path="/News" element={<News />} />
       <Route path="/news/:id" element={<NewsPage />} />
     </Routes>
   );
