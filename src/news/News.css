@@ -55,28 +55,33 @@
   scale: 1.05;
 }
 
-.News header {
-  font-weight: bold;
-}
-
 .News header,
 .News footer {
   padding: 4px 8px;
+  text-align: center;
+  text-decoration: underline black;
+  background-color: #00ced1;
+  font-weight: bold;
 }
 
 .article {
   max-width: 700px;
   margin: auto;
-  background-color: white;
+  background-color: #00ced1;
   padding: 1px 0px;
+  text-align: center;
 }
 
 .article h3 {
   margin: 0;
   padding: 10px;
+  text-decoration: underline;
 }
 
 .article p {
   margin: 0;
   padding: 14px 10px;
+}
+.back {
+  margin-left: 100%;
 }

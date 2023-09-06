@@ -27,6 +27,7 @@ export default function NewsPage() {
     <div className="NewsPage">
       {article ? (
         <div className="article">
+          <button className="back">back</button>
           <h3>{article.headline}</h3>
           <p>{article.description}</p>
           <img src={article.imgUrl} width="100%" alt={article.headline} />

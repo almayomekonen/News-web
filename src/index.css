@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap");
 
 html {
   min-height: 100%;
@@ -11,7 +11,7 @@ body {
 }
 
 * {
-  font-family: 'Rubik', sans-serif !important;
+  font-family: "Rubik", sans-serif !important;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h2 {
 }
 
 button {
-  background-color: #d2009e;
+  background-color: #4b0082;
   color: white;
   padding: 8px 12px;
   border-radius: 6px;
