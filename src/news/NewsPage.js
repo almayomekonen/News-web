@@ -28,7 +28,7 @@ export default function NewsPage() {
     <div className="NewsPage">
       {article ? (
         <div className="article">
-          <Link to="/News">
+          <Link to="/">
             <button className="back">back</button>
           </Link>
           <h3>{article.headline}</h3>
