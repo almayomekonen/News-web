@@ -3,6 +3,7 @@ import "./App.css";
 import Router from "./Router";
 import Loader from "./components/Loader";
 import Snackbar from "./components/Snackbar";
+import Navbar from "./components/Navbar/Navbar";
 
 export const GeneralContext = React.createContext();
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <GeneralContext.Provider value={{ setIsLoader, snackbar }}>
       <div className="App">
+        <Navbar />
         <h1>My News Website</h1>
         <Router />
         {isLoader && <Loader />}
